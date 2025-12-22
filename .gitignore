@@ -1,0 +1,18 @@
+# Node / dev environment files (if any)
+node_modules/
+npm-debug.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Chrome generated extensions
+*.crx
+*.zip
+
+# Python cache if you ever run scripts
+__pycache__/
+*.pyc
+
+# Logs
+*.log
