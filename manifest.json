@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "DarkTorch",
+  "version": "1.0",
+  "description": "Darkens webpages and reveals content through a movable spotlight around the cursor.",
+  "author": "Zaheer Abbas Khan",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "DarkTorch"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
