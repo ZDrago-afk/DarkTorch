@@ -16,6 +16,18 @@ DarkTorch is a fun browser extension that darkens webpages and reveals content t
 4. Click **Load unpacked**
 5. Select the `DarkTorch` folder
 
+## 📸 Screenshots
+
+**Spotlight Effect-1**
+![Spotlight](screenshots/base.png)
+
+**Spotlight Effect-2**
+![Spotlight](screenshots/darktorch-preview.png)
+
+**Popup Toggle**
+![Popup](screenshots/popup.png)
+
+
 ## 🧠 Use Case
 - Fun visual experience
 - Focus mode
