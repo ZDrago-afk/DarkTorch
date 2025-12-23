@@ -1,4 +1,8 @@
-# DarkTorch 🔦
+<p align="center">
+  <img src="icons/icon128.png" alt="DarkTorch Logo" width="280">
+</p>
+
+## DarkTorch 🔦
 
 DarkTorch is a fun browser extension that darkens webpages and reveals content through a movable spotlight around the cursor.
 
@@ -15,6 +19,23 @@ DarkTorch is a fun browser extension that darkens webpages and reveals content t
 3. Enable **Developer Mode**
 4. Click **Load unpacked**
 5. Select the `DarkTorch` folder
+
+
+## 📁 Project Structure
+
+| File / Folder | Purpose |
+|---------------|---------|
+| `icons/` | Extension icon assets |
+| `screenshots/` | Demo and preview images |
+| `.gitignore` | Git ignore rules |
+| `LICENSE.txt` | License information |
+| `README.md` | Project documentation |
+| `content.js` | Main content script for spotlight effect |
+| `manifest.json` | Chrome extension manifest |
+| `popup.html` | Popup UI HTML |
+| `popup.js` | Popup UI script |
+| `styles.css` | Extension styling |
+
 
 ## 📸 Screenshots
 
@@ -37,3 +58,4 @@ DarkTorch is a fun browser extension that darkens webpages and reveals content t
 ## ⚠️ Disclaimer
 This extension does not collect, track, or transmit any user data.  
 It is intended for educational and fun purposes only.
+
